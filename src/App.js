@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import StudentCard from './components/studentCard';
 import Kalkulator from './components/kalkulator';
 
-// Komponen Home berisi tampilan kartu mahasiswa dan tombol ke kalkulator
+
 function Home() {
   const navigate = useNavigate();
   return (
